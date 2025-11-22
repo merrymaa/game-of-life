@@ -1,7 +1,13 @@
-# Game of life
+## Game of life
 
 Игра «Жизнь» — клеточный автомат, придуманный английским математиком Джоном Конвеем в 1970 году.
 
-Для компилляции:
+## Сборка и запуск:
 
-`gcc -Wall -Werror -Wextra -std=c11 game_of_life.c -lncurses`
+```gcc -Wall -Werror -Wextra -std=c11 game_of_life.c -o game -lncurses```
+
+Для запуска необходимо выбрать один из паттернов (.txt)
+
+```./game < pattern.txt ```
+
+
